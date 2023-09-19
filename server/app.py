@@ -45,6 +45,7 @@ def show_article(id):
     else:
         response = make_response(article,200)
     
+    
     return response 
 
 
